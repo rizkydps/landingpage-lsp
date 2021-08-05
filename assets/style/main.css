@@ -8,12 +8,6 @@
 
 :root {
   --primary-color: #140850;
-  --secondary-color: #15A89F;
-  --font-color: #1A2525;
-  --bg-color: #fff;
-  --bg-bg: #C4C4C4;
-  --form-color: #fffdfd;
-  --hover: #d38613;
 }
 
 .navbar-dark {
@@ -77,9 +71,8 @@
 header {
   margin-top: -68px;
   padding: 180px 0 165px;
-  background-image: url("../img/head.jpg");
+  background-image: url("../img/head2.png");
   background-size: cover;
-  border-radius: 0px 0px 40px 40px;
 }
 
 header h1 {
