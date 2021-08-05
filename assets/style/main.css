@@ -135,4 +135,51 @@ header .btn-daftar:hover {
 .section-lsp .card .btn-lsp:hover {
   color: #fff;
 }
+
+.section-skema h2 {
+  font-size: 38px;
+  font-weight: 600;
+  font-family: 'Fira Sans', sans-serif;
+  color: var(--primary-color);
+}
+
+.section-skema .btn-label {
+  border: 3px solid;
+  background-color: #fff;
+  color: var(--primary-color);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 7px 28px 7px;
+  border-radius: 7px;
+}
+
+.section-skema .btn-label:hover {
+  border: 3px solid;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 9px 28px 9px;
+  border-radius: 7px;
+}
+
+.section-skema .btn-active {
+  border: 3px solid;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 9px 28px 9px;
+  border-radius: 7px;
+}
+
+.section-skema .btn-active:hover {
+  border: 3px solid;
+  background-color: #fff;
+  color: var(--primary-color);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 7px 28px 7px;
+  border-radius: 7px;
+}
 /*# sourceMappingURL=main.css.map */
