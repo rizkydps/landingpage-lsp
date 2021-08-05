@@ -70,6 +70,7 @@ header {
   padding: 180px 0 165px;
   background-image: url("../img/head.jpg");
   background-size: cover;
+  border-radius: 0px 0px 40px 40px;
 }
 
 header h1 {
@@ -90,6 +91,48 @@ header .btn-daftar {
 }
 
 header .btn-daftar:hover {
+  color: #fff;
+}
+
+.section-lsp h2 {
+  font-size: 38px;
+  font-weight: 600;
+  font-family: 'Fira Sans', sans-serif;
+  color: var(--primary-color);
+}
+
+.section-lsp p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+
+.section-lsp .card {
+  margin-top: 30px;
+  height: 470px;
+}
+
+.section-lsp .card .card-body h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+}
+
+.section-lsp .card .card-body p {
+  color: #000;
+  font-size: 14px;
+}
+
+.section-lsp .card .btn-lsp {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 64px 10px;
+  border-radius: 10px;
+}
+
+.section-lsp .card .btn-lsp:hover {
   color: #fff;
 }
 /*# sourceMappingURL=main.css.map */

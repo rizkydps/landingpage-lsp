@@ -78,6 +78,7 @@ header {
     padding: 180px 0 165px;
     background-image: url('../img/head.jpg');
     background-size: cover;
+    border-radius: 0px 0px 40px 40px;
 
     h1 {
         color: #FBFBFF;
@@ -102,5 +103,55 @@ header {
             color: #fff;
         }
     }
+
+}
+
+// Section 2 LSP
+.section-lsp {
+    h2 {
+        font-size: 38px;
+        font-weight: 600;
+        font-family: 'Fira Sans', sans-serif;
+        color: var(--primary-color);
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 500;
+        color: #000;
+    }
+
+    .card {
+        margin-top: 30px;
+        height: 470px;
+
+        .card-body {
+            h3 {
+                font-size: 24px;
+                font-weight: 700;
+                color: #000;
+            }
+
+            p {
+                color: #000;
+                font-size: 14px;
+            }
+        }
+
+        .btn-lsp {
+            background-color: var(--primary-color);
+            color: #fff;
+            font-size: 14px;
+            font-weight: 700;
+            padding: 10px 64px 10px;
+            border-radius: 10px;
+
+
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+
 
 }
