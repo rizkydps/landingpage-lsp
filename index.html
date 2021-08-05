@@ -10,6 +10,8 @@
     <!-- Bootsrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/503704af2c.js" crossorigin="anonymous"></script>
     <!-- css -->
     <link rel="stylesheet" href="assets/style/main.css">
 </head>
@@ -23,7 +25,7 @@
         <div class="container font-weight-bold">
             <div class="navbar-nav">
                 <a target="_blank" href="https://www.facebook.com/lsptd/" title="facebook" class="nav-item nav-link">
-                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-facebook-square"></i>
                 </a>
                 <a target="_blank" href="https://www.instagram.com/lsp.td/" title="instagram" class="nav-item nav-link">
                     <i class="fab fa-instagram"></i>
@@ -42,7 +44,6 @@
     </nav>
     <!-- NABBAR ATAS -->
 
-    <!-- Navbar UTAMA -->
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container">
@@ -58,8 +59,15 @@
                     <li class="nav-item mx-md-2">
                         <a class="nav-link active" href="#">HOME</a>
                     </li>
-                    <li class="nav-item mx-md-2">
-                        <a class="nav-link" href="#about">PROFILE</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            PROFILE
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Link</a>
+                            <a href="#" class="dropdown-item">Link</a>
+                            <a href="#" class="dropdown-item">Link</a>
+                        </div>
                     </li>
                     <li class="nav-item mx-md-2">
                         <a class="nav-link" href="#resume">PELATIHAN</a>
@@ -67,15 +75,19 @@
                     <li class="nav-item mx-md-2">
                         <a class="nav-link" href="#portfolio">SERTIFIKASI</a>
                     </li>
-                    <li class="nav-item mx-md-2">
-                        <a class="nav-link" href="#contact">MEDIA</a>
-                    </li>
-                    <li class="nav-item mx-md-2">
-                        <a class="nav-link" href="#contact">INFORMASI</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            MEDIA
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Link</a>
+                            <a href="#" class="dropdown-item">Link</a>
+                            <a href="#" class="dropdown-item">Link</a>
+                        </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                            Sevices
+                            INFORMASI
                         </a>
                         <div class="dropdown-menu">
                             <a href="#" class="dropdown-item">Link</a>
@@ -85,27 +97,23 @@
                     </li>
                 </ul>
                 <!-- Mobile Buttom -->
-                <form class="form-inline d-sm-block d-md-none">
+                <!-- <form class="form-inline d-sm-block d-md-none">
                     <button class="btn btn-login my-2 my-sm-0 px-4">
                         LOGIN
                     </button>
                 </form>
                 <form class="form-inline d-sm-block d-md-none">
-                    <button class="btn btn-login my-2 my-sm-0 px-4">
+                    <button class="btn btn-daftar my-2 my-sm-0 px-4">
                         DAFTAR
                     </button>
-                </form>
+                </form> -->
                 <!-- Dekstop Buttom -->
-                <form class="form-inline my-2 my-lg-0 d-none d-md-block">
-                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
-                        LOGIN
-                    </button>
-                </form>
-                <form class="form-inline my-2 my-lg-0 d-none d-md-block">
-                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
-                        DAFTAR
-                    </button>
-                </form>
+                <button class="btn btn-login">
+                    LOGIN
+                </button>
+                <button class="btn btn-daftar">
+                    DAFTAR
+                </button>
             </div>
         </div>
     </nav>
