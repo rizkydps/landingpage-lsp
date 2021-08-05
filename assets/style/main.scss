@@ -56,7 +56,7 @@
         background-color: var(--primary-color);
         color: #fff;
         font-family: 'Poppins', sans-serif;
-        font-weight: normal;
+        font-weight: 600;
         padding: 6px 16px 6px;
         margin-left: 10px;
     }
@@ -65,7 +65,7 @@
         background-color: var(--primary-color);
         color: #fff;
         font-family: 'Poppins', sans-serif;
-        font-weight: normal;
+        font-weight: 600;
         padding: 6px 16px 6px;
         margin-left: 10px;
     }
@@ -79,28 +79,24 @@ header {
     background-image: url('../img/head.jpg');
     background-size: cover;
 
-
-    h1,
-    p {
-        color: #fff;
-    }
-
     h1 {
+        color: #FBFBFF;
         text-align: center;
         font-family: 'Fira Sans', sans-serif;
         font-weight: 600px;
         font-size: 48px;
-
+        text-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
     }
 
-    p {
-        font-size: 22px;
-    }
+
 
 
     .btn-daftar {
-        background-color: #FF9E53;
+        background-color: var(--primary-color);
         color: #fff;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        padding: 10px 64px 10px;
 
         &:hover {
             color: #fff;
