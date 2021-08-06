@@ -428,3 +428,92 @@ header {
         color: #fff;
     }
 }
+
+
+.section-page2 {
+
+    .card {
+        box-shadow: 0px -2px 80px rgba(0, 0, 0, 0.07), 0px -0.835552px 33.4221px rgba(0, 0, 0, 0.0503198), 0px -0.446726px 17.869px rgba(0, 0, 0, 0.0417275), 0px -0.250431px 10.0172px rgba(0, 0, 0, 0.035), 0px -0.133002px 5.32008px rgba(0, 0, 0, 0.0282725), 0px -0.0553451px 2.21381px rgba(0, 0, 0, 0.0196802);
+
+        h1 {
+            font-size: 38px;
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        h2 {
+            padding: 20px;
+            font-size: 18px;
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        .pengertian {
+            margin-top: 10px;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .list-tugas {
+            padding: 10px 30px 0px 30px;
+            list-style: none;
+            margin-left: 1em;
+            counter-reset: line;
+
+            li {
+                position: relative;
+                margin-bottom: 1.5em;
+
+                &:before {
+                    position: absolute;
+                    left: -2.25em;
+                    display: inline-block;
+                    width: 22px;
+                    height: 22px;
+                    margin-right: 0.5em;
+                    background-color: var(--primary-color);
+                    border-radius: 50%;
+                    color: #fff;
+                    text-align: center;
+                    line-height: 1.25em;
+                    counter-increment: line;
+                    content: counter(line);
+                }
+            }
+        }
+
+        .deskripsi2 {
+            text-align: left;
+            font-size: 16px;
+            color: #000;
+            padding: 20px;
+        }
+
+        .list-bawah {
+            padding: 0px 20px 20px 20px;
+
+            .btn-list {
+                justify-content: center;
+                margin-top: 5px;
+                width: 330px;
+                background-color: var(--primary-color);
+                color: #fff;
+                border-radius: 7px;
+            }
+        }
+
+        h4 {
+            font-size: 24px;
+            color: var(--primary-color);
+        }
+
+    }
+
+
+
+
+
+
+
+
+}
